@@ -1,0 +1,139 @@
+.albums-page-container {
+  height: 100%;
+}
+
+.nav-bar {
+  height: 40px;
+  background: #66ffb9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
+.nav-bar button {
+  /* font-weight: bold; */
+  background: #66ffb9;
+  border: 0 solid #66ffb9;
+  color: rgb(19, 18, 18);
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container form {
+  width: 90%;
+  max-width: 400px;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.form-container form select {
+  width: 94%;
+  font-size: 16px;
+  color: #665;
+}
+
+.form-container form img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-content {
+  margin-top: 10px;
+  height: 70px;
+  width: 95%;
+  background: #66ffb9;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.input-content input {
+  margin: auto auto;
+  width: 75%;
+  height: 48px;
+  font-size: 16px;
+  color: #665;
+  border-radius: 15px;
+}
+
+.icon-content {
+  height: 40px;
+  width: 40px;
+  background: #ff00c0;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  align-self: center;
+  margin: auto;
+  margin-left: -5px;
+}
+
+/* Mobile config */
+.albums-container ul#mobile {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+/* Desktop config*/
+.albums-container ul#desktop {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+/* All screen types config*/
+.albums-container ul#large {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.albums-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.albums-container ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.albums-container ul li img {
+  align-self: center;
+  height: 100px;
+  border-radius: 5px 5px 0 0;
+}
+
+.albums-container ul li footer {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 15px 20px;
+  text-align: left;
+  border-radius: 0 0 5px 5px;
+}
+
+.albums-container ul li footer strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.albums-container ul li footer p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999;
+  margin-top: 5px;
+}
